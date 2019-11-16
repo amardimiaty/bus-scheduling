@@ -21,9 +21,9 @@ const Bus = ({ trips, number }) => {
   }
 
   /**
-   * Takes in a trip to add to bus, then checks for 
+   * Takes in a trip to add to the bus, then checks for 
    * conflicts by seeing if the trips start or end time falls
-   * within 
+   * within any other the buses current trips start or end times.
    * 
    * @param {Object} tripToAdd trip object with startTime, endTime.
    * 
@@ -44,7 +44,7 @@ const Bus = ({ trips, number }) => {
 
   /**
    * Gets the selected trip checks for scheduling
-   * conflict with bus we want to add it to.
+   * conflicts with the bus it will be added to.
    * 
    * @returns {(Boolean | Object)} 
    * false if there is a conflict, if not an updated bus obj
@@ -61,9 +61,9 @@ const Bus = ({ trips, number }) => {
   }
 
   /**
-   * Removes the selected trip from the current bus and
-   * then adds trip to new bus. Last remove buses with
-   * no trips and reset the bus numbers.
+   * Removes the selected trip from the current bus it
+   * is associated with and then adds the trip to new bus. 
+   * Last remove buses with no trips and reset the bus numbers.
    * 
    * @returns {Array} The updated buses array.
    */
