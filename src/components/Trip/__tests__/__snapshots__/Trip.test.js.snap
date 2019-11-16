@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Trip /> renders and matches snapshot 1`] = `
+<Trip
+  busNumber={1}
+  trip={
+    Object {
+      "endTime": 150,
+      "id": 1,
+      "startTime": 30,
+    }
+  }
+>
+  <styled.div
+    endTime={150}
+    isSelected={false}
+    onClick={[Function]}
+    startTime={30}
+  >
+    <StyledComponent
+      endTime={150}
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-htpNat",
+            "isStatic": false,
+            "lastClassName": "jHRzPn",
+            "rules": Array [
+              "
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  height: 30px;
+  border: 1px solid #9E9E9E;
+  width: ",
+              [Function],
+              "px;
+  left: ",
+              [Function],
+              "px;
+  background-color: ",
+              [Function],
+              ";
+  cursor: pointer;
+",
+            ],
+          },
+          "displayName": "styled.div",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "sc-htpNat",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      isSelected={false}
+      onClick={[Function]}
+      startTime={30}
+    >
+      <div
+        className="sc-htpNat jHRzPn"
+        onClick={[Function]}
+      >
+        <span
+          className="Trip__number"
+        >
+          1
+        </span>
+      </div>
+    </StyledComponent>
+  </styled.div>
+</Trip>
+`;
